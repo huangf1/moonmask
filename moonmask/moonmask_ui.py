@@ -67,7 +67,7 @@ class MoonMaskUI():
                 return
         self.collage.create_collage(main_image_file, mask_file, positive_space_file, negative_space_file, positive_space_transparency, negative_space_transparency, dimensionality, img_size)
         self.collage.save_collage(filename)
-        self.desktop_show_collage()
+        # self.desktop_showcollage()
         self.moonmask_filename = filename + ".jpg"
         self.print_text((WHITESPACE))
         self.print_text((SAVE_COLLAGE_CONFIRMATION))
